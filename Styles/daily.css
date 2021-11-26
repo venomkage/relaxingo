@@ -15,9 +15,10 @@ body {
   -ms-flex-align: center;
   align-items: center;
 
-  background: url(../Background/bg-1920.jpg);
+  background: url(https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .logo h1 a {
@@ -95,7 +96,7 @@ body {
 }
 
 .heading {
-  color: #dbc077;
+  color: black;
   letter-spacing: 0.21em;
   font-size: 36px;
 }
