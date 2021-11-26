@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.thanks-bg {
+  background-color: #090A0E;
+}
+
+.thanks-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.mid {
+  position: relative;
+  top: 9rem;
+  letter-spacing: .21rem;
+  text-align: center;
+  z-index: 10;
+}
+
+.mid h1 {
+  color: #dbc077;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: bolder;
+}
+
+.mid button {
+  background-color: #dbc077;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 51px;
+  margin-top: 66px;
+}
+
+.mid button:hover {
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.mid button a {
+  letter-spacing: .21rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=thanks.css.map */
